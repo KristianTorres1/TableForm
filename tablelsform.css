@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body {
+    font-family: 'Young Serif', serif;
+    font-size: 90%;
+    color: black;
+    background-image: url("powe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1{
+    font-size: 90px;
+    font-family: 'Young Serif', serif;
+
+    color: black;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: black;
+    font-family: 'Young Serif', serif;
+
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+ul li img{
+    width: 30px;
+    height: 30px;
+}
+ul{
+    display: inline;
+}
+li {
+    position: absolute;
+    margin-right: 140px;
+    bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.6em;
+    color: #000000;
+}
+#span{
+    margin-left: 70px;
+}
+#span2{
+    margin-right: 35px;
+}
+
+table {
+    border-spacing: 0px;
+    color: #000000;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+th, td {
+    padding: 5px 35px 5px 10px;
+    border-spacing: 0px;
+    font-size: 100%;
+    margin: 0px;
+}
+th{
+    font-family: 'Young Serif', serif;
+    
+
+}        
+th, td {
+    text-align: left;
+    background-color: #CAAB66;
+    border-top: 1px solid #A7762F;
+    border-bottom: 1px solid #A7762F;
+    border-right: 1px solid #A7762F;
+    color: #000000;
+    font-weight: 300px;
+    font-family: 'Young Serif', serif;
+}
+
+tr.head th {
+    color: #000000;
+    background-color: #CAAB66;
+    border-bottom: 2px solid #A7762F;
+    border-right: 1px solid #A7762F;
+    border-top: 1px solid #A7762F;
+    text-align: center;
+    text-shadow: -0px -0px 0px ;
+    letter-spacing: 0.17em;
+}
+
+td {
+    text-shadow: 0px 0px 0px #A7762F;
+    
+
+}
+
+tr.even td, tr.even th {
+    background-color: #CAAB66;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    display: block;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 430px;
+    border: 1px solid #A7762F;
+    background-color: #CAAB66;
+    line-height: 1.6em;
+    height: 200px;
+}
+fieldset p{
+    color: #CAAB66;
+    display: block;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    font-style: italic;
+    color: black;
+    display: flex;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #0d0909;
+    padding: 2px;
+    outline: none;
+    border: 2px solid black;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #CAAB66;
+    border: 2px solid #A7762F;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    background-color: #CAAB66;
+    color: #000000;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #A7762F;
+    background-color: #CAAB66;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    width: 140px;
+    clear: left;
+    font-size: 20px;
+    color: black;
+}
+label{
+    color: black;
+    display: inline;
+    font-size: 15px;
+    margin: 2px;
+}
+p .title{
+    font-size: 20px;
+}
+.submit {
+    display: flex;
+    margin: auto;
+    position: relative;
+    margin-left: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
